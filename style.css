@@ -1,0 +1,77 @@
+/*RAGGRUPPAMENTO*/
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/*RAGGRUPPAMENTO*/
+h1, h2 {
+    color: red;
+}
+
+/*TIPO*/
+div {
+    border: 1px solid;
+    background-color: rgb(144, 205, 255);
+    text-align: center;
+}
+
+/*ID*/
+#testoTitolo {
+    background-image: url(Immagini/covid.jpg);
+}
+
+/* DESCENDANT */
+div#testoTitolo h1 {
+    color: white;
+}
+
+/*CLASS*/
+.logoReg {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+/*ID*/
+#logindiv {
+    float: left;
+}
+
+/*ID*/
+#titMenu1 {
+    text-align: center;
+}
+
+/*DESCENDANT*/
+div h2 {
+    color: black;
+}
+
+/*RAGGRUPPAMENTO*/
+table th, td{
+    width: 50%;
+    border: 1px solid black;
+    color: black;
+}
+
+/*TIPO*/
+caption {
+    font-size: 50px;
+}
+
+
+/*PSEUDO CLASSI*/
+a:link {
+    color: rgb(117, 13, 13);
+}
+
+a:visited {
+    color: green;
+}
+
+/*PSEUDO ELEMENTI*/
+p::first-letter {
+    color: yellow;
+    font-size: 30px;
+}
